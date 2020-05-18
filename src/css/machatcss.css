@@ -1,0 +1,24 @@
+.area_machat{
+	background-image: url(../img/mahrez.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	margin-bottom: 10%;
+}
+
+.area_machat h2{
+	color: #EEDA7D;
+	text-shadow: 1px 1px 1px black;
+	font-size: 2.5em;
+}
+
+#main > div > label{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 3%;
+}
+

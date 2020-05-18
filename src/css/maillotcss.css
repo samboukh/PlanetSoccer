@@ -1,0 +1,208 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	background-color: #FAFAFA;
+}
+
+header{
+	background-image: url(../img/ballons.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px;
+	border-style: solid;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header ol{
+	list-style-type: none;
+}
+
+header ol li{
+	margin:0 5px;
+}
+
+header li a{
+	color: green;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(6, 6, 6);
+	border-radius: 10px;
+	transition: background-color 0.5s;
+
+}
+
+header li a:hover{
+	background-color: green;
+	color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(6, 6, 6);
+	border-radius: 10px;
+	transition: color background-color 1s;
+}
+
+.space{
+	padding: 5px;
+	background-image: url(../img/stadium.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.space img{
+	transform: scale(1);
+	transition: transform 0.5s;
+}
+
+.space img:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
+
+#main .space{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#main .spaces .lines figure img{
+	width: 200px;
+}
+
+.lines{
+	display: flex;
+	justify-content: space-around;
+}
+
+footer{
+	border: 5px;
+	border-style: solid;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background-image: url(../img/ballon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+footer ol{
+	display: table;
+	width: 100%;
+	margin: auto;
+    margin-top: 60px;
+}
+
+footer ol li{
+	display: table-cell;
+	margin: 5px;
+	/*padding: 10px;*/
+}
+
+
+footer li a{
+	color: green;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(6, 6, 6);
+	border-radius: 10px;
+	transition: background-color 0.5s;
+
+}
+
+footer li a:hover{
+	background-color: green;
+	color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	transition: color background-color border 1s;
+}
+
+footer .facebook a:hover{
+	background-color: #3B5998;
+	color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	transition: color background-color border 1s;
+}
+
+footer .instagram a:hover{
+	background-color: #CB235E;
+	color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	transition: color background-color border 1s;
+}
+
+footer .twitter a:hover{
+	background-color: #38A8E0;
+	color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	transition: color background-color border 1s;
+}
+
+footer img{
+	width: 64px;
+}
+
+.space h3{
+	color: white;
+}
+
+.contact{
+	margin-left: 40%;
+}
+
+footer img:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.flex_footer, .flex_image{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer em{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+footer p{
+	text-align: right;
+	margin-bottom: 0;
+	padding: 5px;
+}

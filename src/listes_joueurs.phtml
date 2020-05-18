@@ -1,0 +1,30 @@
+<h2 class="details_equipes">COMPOSITION EQUIPE</h2>
+    <article class="compositions_equipes">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Position</th>
+                    <th>Date de naissance</th>
+                    <th>Club</th>
+                    <th>Nationnalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach($joueursEquipes as $joueur) :?>
+                <tr>
+                    <td><?= $joueur['player_name'] ?></td>
+                    <td><?= $joueur['posi_to_play'] ?></td>
+                    <td><?= $joueur['date de naissance'] ?></td>
+                    <td><?= $joueur['playing_club'] ?></td>
+                    <td><?= $joueur['country_name'] ?></td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+            <p>Légende: GK = Gardien de but</p>  
+            <p>Légende: DF = Défenseur</p>  
+            <p>Légende: MF = Milieu de terrain</p>  
+            <p>Légende: FD = Attaquant de but</p>  
+        </table><br>
+        <button><a href="index.php">RETOUR</a></button>
+    </article>

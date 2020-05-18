@@ -1,0 +1,34 @@
+<h2 class="details_match">RESULTATS NATION</h2>
+<article class="pages_states">
+        <table>
+            <thead>
+                <tr>
+                    <th>Groupe</th>
+                    <th>Match joué</th>
+                    <th>Victoire</th>
+                    <th>Nul</th>
+                    <th>Defaite</th>
+                    <th>But Marqué</th>
+                    <th>But encaissé</th>
+                    <th>Diff de But</th>
+                    <th>Points</th>
+                    <th>Classement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><?= $detailsMatch['team_group'] ?></td>
+                    <td><?= $detailsMatch['match_played'] ?></td>
+                    <td><?= $detailsMatch['won'] ?></td>
+                    <td><?= $detailsMatch['draw'] ?></td>
+                    <td><?= $detailsMatch['lost'] ?></td>
+                    <td><?= $detailsMatch['goal_for'] ?></td>
+                    <td><?= $detailsMatch['goal_agnst'] ?></td>
+                    <td><?= $detailsMatch['goal_diff'] ?></td>
+                    <td><?= $detailsMatch['points'] ?></td>
+                    <td><?= $detailsMatch['group_position'] ?></td>
+                </tr>
+            </tbody>  
+        </table><br>
+        <button><a href="index.php">RETOUR</a></button>
+    </article>

@@ -1,0 +1,28 @@
+<h2 class="details_Nations">NATIONS EN COMPETITION</h2>
+<div class="flex_pays">
+    <figure class="photo_index">
+        <img src="img/drapeau_world.jpg" alt="drapeau_world">
+        <figcaption><small><em>drapeau de tout les pays</em></small></figapction>
+    </figure>
+    <article class="article_pays">
+        <table>
+            <thead>
+                <tr>
+                    <th>ABBR</th>
+                    <th>PAYS</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php foreach($nomPays as $nom): ?>
+                <tr>
+                    <td><a href="details_match.php?Id=<?= intval($nom['country_id']) ?>" title="consulter le details"><?= $nom['country_abbr'] ?></a></td>
+                    <td><a href="listes_joueurs.php?Id=<?= intval($nom['country_id']) ?>" title="consulter la liste des joueurs"><?= $nom['country_name'] ?></td>
+                </tr>
+            <?php endforeach ;?>
+            </tbody>
+        </table><br>
+       
+        <button><a href="index.php">Haut de page</a></button>
+    </article>
+</div>
+ 

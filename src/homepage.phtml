@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planet Soccer | Le monde du football</title>
+    <link rel="stylesheet" type="text/css" href="css/style_global.css">
+    <link rel="stylesheet" type="text/css" href="css/style_achat.css">
+	<link rel="stylesheet" type="text/css" href="css/maillotcss.css">
+	<link rel="stylesheet" type="text/css" href="css/style_global0.css">
+	<link rel="stylesheet" type="text/css" href="css/machatcss.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo&display=swap">
+	<script src="https://kit.fontawesome.com/f2574f15cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="flex">
+				<div>
+					<a href="home.php"><img src="img/logo.png" alt="logodusite"></a>
+				</div>
+				<ol class="flex">
+					<li><a href="home.php"><i class="fas fa-home"></i> Accueil</a></li>
+					<li><a href="maillot.php"><i class="fas fa-tshirt"></i> Maillots</a></li>
+					<li><a href="billet.php"><i class="fas fa-ticket-alt"></i> Billeterie</a></li>
+					<li><a href="index.php"><i class="fas fa-chart-line"></i> Statistiques</a></li>
+					<li><a href="seconnecter.php"><i class="far fa-address-card"></i> Connexion</a></li>
+				</ol>		
+			</div>
+		</nav>
+    </header>
+    <main id="main">
+		<?php include $template.'.phtml' ?>
+	</main>
+    <footer>
+    	<ol class="flex_footer">
+			<div class="flex_footer">
+				<li><a href="copyright.php" title="Copyright 2019 Planet Soccer">Confidentialité</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</div>
+			<div class="flex_image">
+				<li class="facebook"><a href="https://www.facebook.com/search/top/?q=soccer&epa=SEARCH_BOX" target="_BLANK"><img src="img/facebook.png"></a></li>
+				<li class="instagram"><a href="https://www.instagram.com/explore/tags/soccer/?hl=fr" target="_BLANK"><img src="img/instagram.png"></a></li>
+				<li class="twitter"><a href="https://twitter.com/search?q=soccer&src=typed_query" target="_BLANK"><img src="img/twitter.png"></a></li>
+			</div>
+		</ol>
+		<p><small><em>By SCDY <q>La famille sur l’honneur qui donne tout pour la valeur.</q></em></small></p>
+    </footer>
+</body>
+</html>

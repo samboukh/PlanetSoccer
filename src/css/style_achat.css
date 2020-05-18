@@ -1,0 +1,48 @@
+.flotte
+{
+	margin-top: 0px;
+	margin-right: 10px;
+	padding-left: 0em;
+}
+
+input{
+	margin-right: 10px;
+	margin-top: 0em;
+
+}
+
+label{
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+section
+{
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: black ;
+	border-style: groove;
+	margin-right: 15em;
+	margin-bottom: 25em;
+	padding-left: 4em;
+}
+
+.seconnecter{
+	margin-bottom: 150px;
+}
+
+.inscription{
+	margin-bottom: 100px;
+}
+
+.test{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 150px;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.connec{
+	text-align: center;
+}

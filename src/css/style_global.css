@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    text-align: center;
+}
+.details_match , .details_equipes , .details_Nations{
+    display: inline-block;
+    background-image: url(../img/button_pelouse.jpg);
+    background-size: cover;
+    border: inset;
+    text-align: center;
+    padding: 5px;
+    font-size: 3em;
+    color: red;
+    box-shadow: 10px 5px 5px #002671;
+    text-shadow: 2px 2px 2px #050505;
+}
+
+body article a{
+    text-decoration: none;
+}
+
+.flex_pays article table, .pages_states table, .compositions_equipes table{
+    border-collapse: collapse;
+    border-style: inset;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 10px 5px 5px rgb(67, 192, 13), -1em 0 .4em silver;
+}
+
+.pages_states, .compositions_equipes{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+thead{
+    background-color: rgb(67, 192, 13);
+    color: red;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.5em;
+}
+
+.flex_pays td,.flex_pays th, .compositions_equipes td, .compositions_equipes th{
+    border: 1px solid black;
+    padding: 15px;
+    width: 40%;
+}
+.flex_pays td:hover,.flex_pays th:hover, .compositions_equipes td:hover, .compositions_equipes th:hover, .pages_states td:hover, .pages_states th:hover{
+    background-color: #effde8;
+}
+
+
+.pages_states th, .pages_states td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.article_pays, .compositions_equipes{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+article{
+    text-align: center;
+    width: 45%;
+}
+
+button{
+    background-image: url(../img/button_pelouse.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #73A5FC;
+    padding: 20px;
+    border: inset;
+}
+
+button:hover{
+    background-image: url(../img/fifa2.jpg);
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+
+button a{
+    color: #fafafa;
+    text-decoration: none;
+    margin: auto;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.flex_pays .photo_index{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.photo_index img{
+    max-width: 100%;
+    height: 500px;
+}
